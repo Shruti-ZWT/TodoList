@@ -52,6 +52,7 @@ const TodosScreen = ({ navigation }: any) => {
   };
 
   const handleDeleteAll = () => {
+    setShowConfirmation(false);
     dispatch(deleteAll());
     return AsyncStorage.clear()
   };

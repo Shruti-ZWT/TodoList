@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 const AboutScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Detail</Text>
+      <Text style={styles.title}>Details</Text>
       <Text style={styles.description}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut diam
         non nisi tincidunt aliquet. Cras nec malesuada lectus. In hac
